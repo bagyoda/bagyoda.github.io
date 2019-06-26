@@ -1,0 +1,79 @@
+body {
+background-image: url("assets/topography.png");
+
+}
+
+p{font-family: 'Courier New', Courier, monospace;
+}
+
+#introduction .higher p {
+    font-size: 15px;
+}
+#definitions p{
+    font-size: 12.5px;
+}
+#introduction .higher h2 {
+    font-family: 'Exo 2', sans-serif;
+    color:#ff0099;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'B612 Mono', monospace;
+}
+#tech-head h2 {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+.content {
+    padding: 0px 0px 40px 40px;
+}
+
+.navbar-default {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color:#333333;
+    
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.one-row {
+    float: right;
+}
+
+.one-row li {
+    color:#ff0099;
+    
+    display: inline-block;
+    margin-left: 44px;
+    padding: 10px 0px 0px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0px 10px 40px;
+}
+
+.link-buttons {
+    margin: 0 auto;
+
+    padding: 0px 40px 0px 0px;
+}
+.link-buttons a {
+    color:#ff0099;
+    display: inline-block;
+    font-weight: 200;
+}
+
